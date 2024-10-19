@@ -1,0 +1,8 @@
+Code, "Country Region Name", "Country Region Description", "Number of States Represented"
+1, "Southeast", "Alabama, District of Columbia, Florida, George, Mississippi, North Carolina, Puerto Rico, South Carolina, Tennessee, Virgin Islands, Virginia", 11
+3, "Midwest", "Illinois, Minnesota, North Dakota, South Dakota, Wisconsin", 5
+4, "Central", "Indiana, Kentucky, Michigan, Ohio, West Virginia", 5
+5, "Southwest", "Arkansas, Colorado, Iowa, Kansas, Louisiana, Missouri, Nebraska, New Mexico, Oklahoma, Texas, Wyoming", 11
+6, "North Atlantic", "Connecticut, Massachusetts, Maine, New Hampshire, Rhode Island, Vermont", 6
+8, "Mid Atlantic", "Delaware, Maryland, New Jersey, Pennsylvania", 4
+9, "Western", "Alaska, American Samoa, Arizona, California, Guam, Hawaii, Idaho, Montana, Nevada, Northern Mariana Islands, Oregon, Utah, Washington", 13
