@@ -1,9 +1,0 @@
-|    |   Code | Country Region Name   | Country Region Description                                                                                                                    |   Number of States Represented |
-|----|--------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-|  0 |      1 | Southeast             | Alabama, District of Columbia, Florida, George, Mississippi, North Carolina, Puerto Rico, South Carolina, Tennessee, Virgin Islands, Virginia |                             11 |
-|  1 |      3 | Midwest               | Illinois, Minnesota, North Dakota, South Dakota, Wisconsin                                                                                    |                              5 |
-|  2 |      4 | Central               | Indiana, Kentucky, Michigan, Ohio, West Virginia                                                                                              |                              5 |
-|  3 |      5 | Southwest             | Arkansas, Colorado, Iowa, Kansas, Louisiana, Missouri, Nebraska, New Mexico, Oklahoma, Texas, Wyoming                                         |                             11 |
-|  4 |      6 | North Atlantic        | Connecticut, Massachusetts, Maine, New Hampshire, Rhode Island, Vermont                                                                       |                              6 |
-|  5 |      8 | Mid Atlantic          | Delaware, Maryland, New Jersey, Pennsylvania                                                                                                  |                              4 |
-|  6 |      9 | Western               | Alaska, American Samoa, Arizona, California, Guam, Hawaii, Idaho, Montana, Nevada, Northern Mariana Islands, Oregon, Utah, Washington         |                             13 |
