@@ -1,7 +1,7 @@
 import pandas # can't read tab-delimited CSV files with built-in `csv` module
 import pdb
-import datetime
-import csv
+import argparse
+import os
 
 # Locals
 import ffl_expiration_date_calculator
@@ -10,14 +10,20 @@ import ffl_district_lookup
 import ffl_type_lookup
 
 def get_dataframe(csv_filename) -> pandas.DataFrame:
-    return pandas.read_csv(csv_filename, sep="\t")
-
+    return pandas.read_csv(csv_filename, sep="\t").dropna()
 
 if __name__ == "__main__":
 
-    csv_path = "../original/0924-ffl-list-complete.txt"
+    argparse_parser = argparse.ArgumentParser()
+    
+    argparse_parser.add_argument("-f", "--ffl-file", required=True, type=str, help="The text file from the ATF website")
 
-    ffl_df = get_dataframe(csv_path)
+    argparse_args = argparse_parser.parse_args()
+
+    if not os.path.exists(argparse_args.ffl_file):
+        raise FileNotFoundError(f"ERROR: File '{argparse_args.ffl_file}' does not exist!")
+
+    ffl_df = get_dataframe(argparse_args.ffl_file)
 
     # Add the date columns..
 

@@ -1,22 +1,24 @@
 import csv
 import os
 
-def load_country_regions(region_code_file):
+import helpers
 
-    region_codes = dict()
+# def load_country_regions(region_code_file):
 
-    with open(region_code_file, mode='r') as month_code_csv_file_obj:
-        csv_reader = csv.reader(month_code_csv_file_obj)
+#     region_codes = dict()
+
+#     with open(region_code_file, mode='r') as month_code_csv_file_obj:
+#         csv_reader = csv.reader(month_code_csv_file_obj)
         
-        for row_idx, row_val in enumerate(csv_reader):
+#         for row_idx, row_val in enumerate(csv_reader):
 
-            # skip headers
-            if row_idx == 0:
-                continue
+#             # skip headers
+#             if row_idx == 0:
+#                 continue
 
-            region_codes[int(row_val[0].strip())] = row_val[1].strip()
+#             region_codes[int(row_val[0].strip())] = row_val[1].strip()
 
-    return region_codes
+#     return region_codes
 
 def calculate_country_region(region_series):
 
@@ -25,7 +27,7 @@ def calculate_country_region(region_series):
     if not os.path.exists(country_regions_file):
         raise FileNotFoundError(f"Cannot region regions file '{country_regions_file}'")
 
-    country_regions_dict = load_country_regions("../data/country_regions.csv")
+    country_regions_dict = helpers.get_csv_as_dict("../data/country_regions.csv", 0, 1)
 
     region_names = list()
     

@@ -1,5 +1,4 @@
 import pandas
-import sys
 import argparse
 import os
 
