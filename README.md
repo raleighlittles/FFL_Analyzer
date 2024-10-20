@@ -2,7 +2,7 @@
 
 This repository has some very simple Python scripts to help you view the ATF's Federal Firearms Listings' database.
 
-Download the current list of FFLs from the ATF website:
+Download the current list of FFLs from the ATF website: https://www.atf.gov/firearms/listing-federal-firearms-licensees
 
 ![ATF website screenshot](./docs/ATF-screenshot.png)
 
