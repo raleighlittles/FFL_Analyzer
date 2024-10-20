@@ -3,22 +3,6 @@ import os
 
 import helpers
 
-# def load_country_regions(region_code_file):
-
-#     region_codes = dict()
-
-#     with open(region_code_file, mode='r') as month_code_csv_file_obj:
-#         csv_reader = csv.reader(month_code_csv_file_obj)
-        
-#         for row_idx, row_val in enumerate(csv_reader):
-
-#             # skip headers
-#             if row_idx == 0:
-#                 continue
-
-#             region_codes[int(row_val[0].strip())] = row_val[1].strip()
-
-#     return region_codes
 
 def calculate_country_region(region_series):
 
